@@ -1,6 +1,6 @@
 <?php
 
-namespace Shankhadev\Bsdate;
+namespace TheNineties\Bsdate;
 
 use Illuminate\Support\Facades\Facade;
 
