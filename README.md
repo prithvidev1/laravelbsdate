@@ -17,13 +17,13 @@ A laravel date package which convert AD to BS and viceversa.
 2) Open your `config/app.php` and add the following to the `providers` array:
 
 ```php
-Shankhadev\Bsdate\BsdateServiceProvider::class,
+TheNineties\Bsdate\BsdateServiceProvider::class,
 ```
 
 3) In the same `config/app.php` and add the following to the `aliases ` array: 
 
 ```php
-'Bsdate' => Shankhadev\Bsdate\BsdateFacade::class,
+'Bsdate' => TheNineties\Bsdate\BsdateFacade::class,
 ```
 
 ## Usage
