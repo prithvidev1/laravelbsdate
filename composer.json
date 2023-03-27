@@ -1,12 +1,12 @@
 {
-    "name": "shankhadev/bsdate",
+    "name": "thenineties/bsdate",
     "description": "A simple package that convert AD to BS and viceversa.",
     "keywords": ["Nepali Date", "Bikramsambat"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Padam Shankhadev",
-            "email": "shankhadev123@gmail.com"
+            "name": "The Ninties Tech",
+            "email": "thenineties@gmail.com"
         }
     ],
     "require": {
