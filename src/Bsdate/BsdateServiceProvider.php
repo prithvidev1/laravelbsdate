@@ -1,6 +1,6 @@
 <?php
 
-namespace Shankhadev\Bsdate;
+namespace TheNineties\Bsdate;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,9 +23,9 @@ class BsdateServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Shankhadev\Bsdate\BsdateController');
+        $this->app->make('TheNineties\Bsdate\BsdateController');
         $this->app->bind('bsdate', function () {
-            return new \Shankhadev\Bsdate\BsdateController();
+            return new \TheNineties\Bsdate\BsdateController();
         });
     }
 }
