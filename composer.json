@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shankhadev\\Bsdate\\": "src/Bsdate/"
+            "TheNineties\\Bsdate\\": "src/Bsdate/"
         }
     }
 }
